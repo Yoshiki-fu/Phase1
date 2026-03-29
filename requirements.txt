@@ -1,0 +1,28 @@
+# フェーズ1 依存ライブラリ
+# pip install -r requirements.txt
+
+# WORLD ボコーダ
+pyworld>=0.3.4
+
+# 音声 I/O
+soundfile>=0.12.1
+torchaudio>=2.0.0
+
+# HuBERT (HuggingFace)
+transformers>=4.38.0
+torch>=2.0.0
+
+# 数値計算・信号処理
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 音質評価
+pesq>=0.0.4
+pystoi>=0.3.3
+
+# 可視化
+matplotlib>=3.7.0
+
+# k-means（フェーズ2以降で使用）
+scikit-learn>=1.3.0
+joblib>=1.3.0
